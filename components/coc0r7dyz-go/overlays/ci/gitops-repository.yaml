@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: coc0r7dyz-go-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/coc0r7dyz-go-gitops

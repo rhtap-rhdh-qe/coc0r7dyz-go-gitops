@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: coc0r7dyz-go
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: coc0r7dyz-go 
+  name: coc0r7dyz-go
+spec:
+  ports:
+  - port: 8081 
+    targetPort: 8081 
+  selector:
+    app.kubernetes.io/instance: coc0r7dyz-go 
